@@ -1,0 +1,12 @@
+{
+  "name": "company",
+  "scripts": {
+    "start": "node index.js",
+    "push": "npx apollo service:push --serviceName='Company' --serviceURL='https://bront-company-service.herokuapp.com/' --endpoint='https://bront-company-service.herokuapp.com/' --tag='sharper'"
+  },
+  "dependencies": {
+    "@apollo/federation": "latest",
+    "apollo-server": "latest",
+    "graphql": "latest"
+  }
+}

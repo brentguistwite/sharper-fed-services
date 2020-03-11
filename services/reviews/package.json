@@ -1,0 +1,13 @@
+{
+  "name": "reviews",
+  "scripts": {
+    "start": "node index.js",
+    "push": "npx apollo service:push --serviceName='Review' --serviceURL='https://bront-review-service.herokuapp.com/' --endpoint='https://bront-review-service.herokuapp.com/' --tag='sharper'"
+
+  },
+  "dependencies": {
+    "@apollo/federation": "latest",
+    "apollo-server": "latest",
+    "graphql": "latest"
+  }
+}

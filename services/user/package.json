@@ -1,0 +1,13 @@
+{
+  "name": "user",
+  "scripts": {
+    "start": "node index.js",
+    "push": "npx apollo service:push --serviceName='User' --serviceURL='https://bront-user-service.herokuapp.com/' --endpoint='https://bront-user-service.herokuapp.com/'"
+
+  },
+  "dependencies": {
+    "@apollo/federation": "latest",
+    "apollo-server": "latest",
+    "graphql": "latest"
+  }
+}

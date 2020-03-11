@@ -1,0 +1,13 @@
+{
+  "name": "inventory",
+  "scripts": {
+    "start": "node index.js",
+    "push": "npx apollo service:push --serviceName='Inventory' --serviceURL='https://bront-inventory-service.herokuapp.com/' --endpoint='https://bront-inventory-service.herokuapp.com/' --tag='sharper'"
+
+  },
+  "dependencies": {
+    "@apollo/federation": "latest",
+    "apollo-server": "latest",
+    "graphql": "latest"
+  }
+}

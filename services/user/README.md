@@ -1,0 +1,2 @@
+# user-service
+What's the difference between serviceURL and endpoint parameters? The endpoint parameter controls the endpoint where the schema will be fetched from at composition, whereas serviceURL controls what URL the gateway will query at runtime. This is especially useful because federated services should not be publicly accessible, so the endpoint might point to a locally running server or a file, whereas the serviceURL should be a URL accessible to the gateway.

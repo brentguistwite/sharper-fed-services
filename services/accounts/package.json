@@ -1,0 +1,13 @@
+{
+  "name": "accounts",
+  "scripts": {
+    "start": "node index.js",
+    "push": "npx apollo service:push --serviceName='Account' --serviceURL='https://bront-account-service.herokuapp.com/' --endpoint='https://bront-account-service.herokuapp.com/' --tag='sharper'"
+  },
+  "dependencies": {
+    "@apollo/federation": "latest",
+    "apollo-server": "latest",
+    "graphql": "latest"
+  },
+  "version": "0.0.0"
+}

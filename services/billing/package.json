@@ -1,0 +1,13 @@
+{
+  "name": "billing",
+  "scripts": {
+    "start": "node index.js",
+    "push": "npx apollo service:push --serviceName='Billing' --serviceURL='https://bront-billing-service.herokuapp.com/' --endpoint='https://bront-billing-service.herokuapp.com/' --tag='sharper'"
+
+  },
+  "dependencies": {
+    "@apollo/federation": "latest",
+    "apollo-server": "latest",
+    "graphql": "latest"
+  }
+}
